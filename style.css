@@ -1,0 +1,648 @@
+@charset "UTF-8";
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+html,
+body,
+h1,
+h2,
+p,
+article,
+header,
+nav,
+footer {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 94%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #F4F3EF;
+}
+
+
+/*CSS Rules for the banner*/
+
+.banner {
+    background-color: #F4F3EF;
+    color: #036463;
+    font-family: 'Segoe UI';
+}
+
+.headerContainer {
+    width: 95%;
+    margin: auto;
+    overflow: visible;
+}
+
+.logo {
+    float: left;
+    padding: 0% 15% 0% 1.2%;
+}
+
+img.logo {
+    min-width: 15%;
+    width: 5%;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 21px;
+    font-size: 21px;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+nav ul li a:hover {
+    color: rgb(77, 57, 0);
+}
+
+.activeNavOption {
+    color: rgb(77, 57, 0);
+    text-decoration: underline;
+}
+
+.shoppingCart {
+    float: right;
+    padding: 3.5% 4% 3.5% 0%;
+}
+
+img.shoppingCart {
+    min-width: 1%;
+    width: 3%;
+}
+
+.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.skip-main:focus,
+.skip-main:active {
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 4px solid yellow;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+}
+
+#searchProduct {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchProduct .container {
+    background-color: white;
+}
+
+#searchProduct input {
+    font-size: 20px;
+    width: 50%;
+    padding: 0.40%;
+}
+
+#searchProduct button {
+    padding: 0.50%;
+    background: rgb(77, 57, 0);
+    color: white;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Get a point for every dollar you spend Advertisement*/
+
+#getPointsAd header {
+    font-size: 27px;
+    margin-top: 2.5%;
+    font-weight: bold;
+}
+
+#getPointsAd h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#getPointsAd p {
+    font-weight: bold;
+}
+
+#getPointsAd img {
+    padding: 12% 10% 2% 50%;
+    width: 220%;
+}
+
+.boxPromoImage {
+    float: left;
+    width: 5%;
+    padding: 0.25% 0.15%;
+    position: relative;
+    display: inline-block;
+}
+
+.boxPromoText {
+    float: left;
+    width: 42%;
+    padding: 0.5% 0% 0% 10%;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.boxPromoButton {
+    float: left;
+    width: 10%;
+    display: inline-block;
+}
+
+.learnMoreButton {
+    background-color: rgb(77, 57, 0);
+    border: none;
+    color: white;
+    padding: 6% 60%;
+    margin: 38% 168%;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.boxPromoClose {
+    float: right;
+    width: 4%;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.boxPromoClose a:hover {
+    color: rgb(77, 57, 0);
+}
+
+
+/* CSS rules for Popular items section*/
+
+.itemCategory {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.itemCategory h1 {
+    text-align: left;
+    padding-left: 1.5%;
+    float: left;
+    display: inline-block;
+}
+
+.viewMoreLink {
+    text-decoration: underline;
+    float: right;
+    padding-right: 1.5%;
+    padding-bottom: 0.2%;
+    padding-top: 0.6%;
+    display: inline-block;
+}
+
+div::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.imageHome {
+    padding-top: 8%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+
+.box {
+    float: left;
+    width: 15%;
+    margin-left: 1.43%;
+}
+
+.boxSectionItem {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 8% 7% 8% 15%;
+    margin-bottom: 8%;
+}
+
+.boxSectionItem h2 {
+    font-size: 120%;
+    color: #036463;
+}
+
+.boxSectionItem p {
+    font-size: 90%;
+    color: #036463;
+}
+
+.imageSection {
+    position: relative;
+}
+
+.imageSection .organicLabel {
+    position: absolute;
+    bottom: 8%;
+    right: 1.5%;
+    font-size: 70%;
+    background-color: rgb(77, 57, 0);
+    color: white;
+    padding: 1.5%;
+    font-weight: bold;
+}
+
+.imageSection .fa-plus-circle {
+    position: absolute;
+    bottom: 82%;
+    right: 2.5%;
+    font-size: 110%;
+    color: #036463;
+}
+
+
+/*CSS rules for Footer*/
+
+.footerWrapper {
+    background-color: #F4F3EF;
+    color: black;
+    padding: 0.5% 2% 2% 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerCopyRight {
+    width: 22%;
+    float: left;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.fa-copyright {
+    padding: 0.7% 0.2% 0.5% 1.5%;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.footerYearSite {
+    padding: 0.5% 2% 0.5% 0%;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.footerGettoKnowUs {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.footerGettoKnowUs ul li {
+    list-style-type: none;
+    font-size: 80%;
+    color: #036463;
+    display: inline-block;
+    padding: 0% 2% 0% 2%;
+}
+
+.footerGettoKnowUs a:hover {
+    color: rgb(77, 57, 0);
+}
+
+.footerConnectWithUs {
+    width: 25%;
+    float: right;
+}
+
+
+/* CSS rules for the font awesome icons */
+
+
+/* CSS Rules for social media brands */
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    float: right;
+    padding: 1%;
+    border-radius: 120%;
+    margin: 6.5% 1% 0% 1%;
+}
+
+
+/* Instagram */
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    float: right;
+    padding: 1%;
+    margin: 6.5% 1% 0% 1%;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    padding: 1%;
+    margin: 6.5% 1% 0% 1%;
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+    /* Banner */
+    .logo {
+        padding: 0% 0% 0% 35%;
+        float: none;
+        text-align: center;
+    }
+    img.logo {
+        width: 30%;
+        margin: auto;
+    }
+    nav ul li a {
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 0px;
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .shoppingCart {
+        padding: 2% 6.5% 2.5% 0%;
+    }
+    img.shoppingCart {
+        width: 3.5%;
+    }
+    /*Search Bar*/
+    #searchProduct input {
+        font-size: 18px;
+        width: 80%;
+    }
+    #searchProduct button {
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    /*Promtion*/
+    #getPointsAd header {
+        font-size: 20px;
+    }
+    #getPointsAd img {
+        width: 270%;
+    }
+    .boxPromoImage {
+        padding: 4% 0.50% 0.25% 0.30%;
+    }
+    .boxPromoText {
+        padding: 0.5% 0% 0% 12%;
+    }
+    .boxPromoButton {
+        width: 8%;
+    }
+    .learnMoreButton {
+        font-size: 14px;
+        margin: 88% 168%;
+    }
+    /*Product Detail Box*/
+    /*Image Section Item*/
+    .imageSection {
+        position: relative;
+    }
+    .imageSection .organicLabel {
+        font-size: 50%;
+    }
+    .imageSection .fa-plus-circle {
+        font-size: 80%;
+    }
+    .boxSectionItem h2 {
+        font-size: 80%;
+    }
+    .boxSectionItem p {
+        font-size: 56%;
+    }
+    /*Footer*/
+    .footerYearSite {
+        padding: 8% 2% 0.5% 0%;
+        font-size: 12px;
+    }
+    .fa-twitter {
+        padding: 2%;
+        margin: 11% 1% 0% 1%;
+    }
+    .fa-instagram {
+        padding: 2%;
+        margin: 11% 1% 0% 1%;
+    }
+    .fa-facebook {
+        padding: 2%;
+        margin: 11% 1% 0% 1%;
+    }
+}
+
+@media (max-width:480px) {
+    /* Banner */
+    .logo {
+        padding: 0% 0% 0% 1.2%;
+        text-align: center;
+    }
+    img.logo {
+        width: 100%;
+        margin: auto;
+    }
+    nav ul li a {
+        margin-left: 80px;
+        margin-right: 45px;
+        margin-top: 0px;
+        font-size: 27px;
+        padding-top: 0px;
+    }
+    .shoppingCart {
+        padding: 2% 48% 2.5% 0%;
+    }
+    img.shoppingCart {
+        width: 10%;
+    }
+    /*Search Bar*/
+    #searchProduct input {
+        font-size: 18px;
+        width: 80%;
+    }
+    #searchProduct button {
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    /*Promtion*/
+    #getPointsAd header {
+        font-size: 20px;
+    }
+    .boxPromoImage {
+        width: 0%;
+        float: left;
+        text-align: center;
+    }
+    .boxPromoText {
+        width: 50%;
+        padding: 0.5% 0% 0% 6%;
+    }
+    .learnMoreButton {
+        padding: 6% 60%;
+        margin: 160% 40%;
+    }
+    .boxPromoClose {
+        width: 8%;
+    }
+    /*Product Detail Box*/
+    /*Image Section Item*/
+    .box {
+        float: none;
+        width: 15%;
+    }
+    .imageHome {
+        padding-top: 15%;
+        padding-bottom: 4%;
+        padding-left: 110%;
+        width: 400%;
+    }
+    .imageSection .organicLabel {
+        left: 410%;
+        font-size: 80%;
+        background-color: white;
+        color: rgb(2, 70, 2);
+    }
+    .imageSection .fa-plus-circle {
+        bottom: 86%;
+        left: 470%;
+        font-size: 130%;
+    }
+    .boxSectionItem {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 2% 20% 2% 15%;
+        margin-bottom: 8%;
+        margin-left: 110%;
+        width: 365%;
+    }
+    .boxSectionItem h2 {
+        font-size: 120%;
+    }
+    .boxSectionItem p {
+        font-size: 90%;
+    }
+    /*Footer*/
+    .footerCopyRight {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 0.5%;
+    }
+    .fa-copyright {
+        padding: 0.2% 0.2% 0.5% 1.5%;
+        font-size: 50px;
+        display: inline-block;
+    }
+    .footerYearSite {
+        padding: 0.4% 2% 0.5% 0%;
+        font-size: 12px;
+    }
+    .footerGettoKnowUs {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .footerGettoKnowUs ul li {
+        list-style-type: none;
+        font-size: 80%;
+        padding: 0% 2% 0% 2%;
+    }
+    .footerConnectWithUs {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-right: 150px;
+    }
+    .test {
+        padding-left: 0px;
+    }
+    .fa-twitter {
+        padding: 2%;
+        margin: 1% 1% 0% 1%;
+    }
+    .fa-instagram {
+        padding: 2%;
+        margin: 1% 1% 0% 1%;
+    }
+    .fa-facebook {
+        padding: 2%;
+        margin: 1% 1% 0% 1%;
+    }
+}
